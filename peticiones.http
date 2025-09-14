@@ -1,0 +1,15 @@
+@urlbase = http://localhost:8000
+@usuarios = {{urlbase}}/users
+@url=https://back-simple-phyton.onrender.com
+@usuario={{url}}/user
+
+
+POST {{usuario}}
+Content-Type: application/json
+
+{
+   "email":"algunemail",
+   "password": "algunpasword", 
+   "name": "jose",
+   "role": "profesor" 
+}
